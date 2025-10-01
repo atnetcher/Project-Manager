@@ -115,6 +115,19 @@
                 e('span', {className:'text-xs text-zinc-400'}, 'Open')
               )
             ),
+            e('div', {className:'mt-3 flex justify-center'},
+              e('a', {
+                href:'./Netcher-Resume-PM.pdf',   // name of your 2-page file
+                target:'_blank',
+                rel:'noreferrer',
+                className:'inline-flex items-center justify-center rounded-2xl border border-zinc-700 bg-zinc-800 px-6 py-3 text-sm font-medium text-zinc-100 transition hover:bg-zinc-700'
+              },
+                e('div', {className:'flex items-center gap-2'},
+                  e(IconGlobe,{className:'w-5 h-5'}),
+                  e('span', null, 'View Full Resume')
+                )
+              )
+            ),
             // about
             e('section', {className:'mt-10'},
               e('h2', {className:'text-lg font-semibold'}, 'About'),
